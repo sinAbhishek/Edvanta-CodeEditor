@@ -1,0 +1,91 @@
+.MuiBox-root {
+    padding: 0px !important;
+    border-radius: 10px !important;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.btnCont {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(17, 15, 15);
+    padding: 10px 5px;
+}
+
+.main>button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mod1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+
+
+}
+
+.mod1>input {
+    padding: 10px 10px;
+    outline: none;
+    border: 1px solid black;
+}
+
+.mod1>button {
+    background-color: rgb(255, 255, 2);
+    margin-top: 10px;
+    color: black;
+    font-weight: bold;
+    border: none;
+    width: max-content;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.mod1>button:hover {
+    cursor: pointer;
+}
+
+.tabs {
+    display: flex;
+}
+
+.tabs>button {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+}
+
+.tabs>button:hover {
+    cursor: pointer;
+}
+
+.features>button {
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 15px;
+    margin-right: 5px;
+    border-radius: 5px;
+}
+
+.features>button:hover {
+    cursor: pointer;
+}
+
+.features {
+    display: flex;
+}
